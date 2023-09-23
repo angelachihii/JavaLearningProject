@@ -30,7 +30,7 @@ public class ManageAutoService {
         worker vasile = new worker();
 
         vasile.name = "Vasile";
-        vasile.age = 54;
+        vasile.age = 59;
         System.out.println("Obiectul nostru are numele de " + vasile.name + " si are " + vasile.age + "ani");
 
         Person client = new Person("+37325478954");

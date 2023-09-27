@@ -1,4 +1,4 @@
-package md.tekwillacademy.accessmodifiers.ChisinauEvidenceCatalog.peopleevidence.Person;
+package md.tekwillacademy.accessmodifiers.peopleevidence;
 
 
 public class Person {
@@ -12,10 +12,10 @@ public class Person {
 
     public boolean isRetired;
 
-    private Person(String name, String surname, long ID) {
+    public  Person(String name, String surname, long id) {
         this.name = name;
         this.surname = surname;
-        ID = long id;
+        ID = id;
         System.out.println("Un obiect de tip Person a fost creat, folosind un constructor cu 3 parametri formali");
 
 
